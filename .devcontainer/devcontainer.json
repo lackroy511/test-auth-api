@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-docker-compose
+{
+	"name": "auth_api",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "auth_api",
+	"workspaceFolder": "/auth_api",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff",
+				"astral-sh.ty",
+				"njpwerner.autodocstring",
+				"streetsidesoftware.code-spell-checker",
+				"littlefoxteam.vscode-python-test-adapter",
+				"njqdev.vscode-python-typehint",
+				"streetsidesoftware.code-spell-checker-russian",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-pg",
+				"mtxr.sqltools-driver-mssql",
+				"mtxr.sqltools-driver-sqlite",
+				"ms-vscode.test-adapter-converter",
+				"hbenl.vscode-test-explorer",
+				"redhat.vscode-yaml"
+			]
+		}
+	}
+}

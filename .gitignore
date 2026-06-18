@@ -1,0 +1,5 @@
+.ssh
+.venv
+.env
+logs
+*.pyc

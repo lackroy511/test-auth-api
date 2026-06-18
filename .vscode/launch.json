@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Run app",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src_auth/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
